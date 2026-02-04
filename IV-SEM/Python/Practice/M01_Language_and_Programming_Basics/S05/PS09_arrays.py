@@ -15,3 +15,11 @@ print(np.max(arr))  # To find the maximum value in the array
 print(np.min(arr))  # To find the minimum value in the array
 print(np.mean(arr)) # To find the mean value of the array
 print(np.sum(arr)) # To find the sum of all elements in the array
+print(np.zeros(8))
+print(np.ones(5))
+print("Even numbers list is:",np.arange(2,10,2))
+print("Odd numbers list is:",np.arange(1,10,2))
+
+n = int(input("Enter the size of the array:"))
+ele= list(map(int,input("Enter elements:").split()))
+print("Array elements are:",np.array(ele))
