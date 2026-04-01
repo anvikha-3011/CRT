@@ -46,4 +46,5 @@ sorted_words = sorted(wordds)
 print(sorted_words) 
 '''
 #Find Second Largest Number
-li = [12,78,32,54,69,100]
+li = [10,20,30,40,50,60,70,80,90,100]
+print(list(sorted(list(set(li))))[-2])
