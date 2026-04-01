@@ -54,3 +54,5 @@ def count_frequency(nums):
     return freq
 print(count_frequency([1,2,3,4,1,2,5,2,4]))
 '''
+7) rotate array 
+8) leetcode --> 724, 1822
