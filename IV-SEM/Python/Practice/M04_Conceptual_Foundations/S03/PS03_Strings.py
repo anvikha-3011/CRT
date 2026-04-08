@@ -46,6 +46,7 @@ def frequency_count(s):
     pass 
 print(frequency_count("abcabc"))
 '''
+'''
 def frequency_count(s):
     d = {}
     for ch in s:
@@ -60,3 +61,5 @@ def is_anagram(s1, s2):
 
 print(is_anagram("space", "paces"))
 print(is_anagram("abc", "abcabc"))
+'''
+#3,13,28*,38,43*,65,151,165*,242,389*,771
