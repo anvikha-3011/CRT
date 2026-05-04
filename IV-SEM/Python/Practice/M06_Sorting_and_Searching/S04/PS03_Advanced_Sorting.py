@@ -21,3 +21,8 @@ def QuickSort(arr,low,high):
     return arr
 print(QuickSort([54,26,98,17,77,31,44,55,20],0,8))
 
+#leetcode 912. Sort an Array
+class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+        return QuickSort(nums,0,len(nums)-1)
+    
